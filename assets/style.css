@@ -138,7 +138,7 @@ h1 em { color: rgba(236, 233, 226, 0.78); font-weight: 400; }
 .modal-navigation button:not(:disabled):hover, .modal-navigation button:not(:disabled):focus-visible, .modal-close:hover, .modal-close:focus-visible { border-color: var(--accent); color: var(--accent); }
 .modal-media { max-height: calc(100svh - 48px); background: #000; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6); }
 .modal-media img, .modal-media iframe { display: block; width: 100%; max-height: calc(100svh - 48px); border: 0; }
-.modal-media img { height: auto; object-fit: contain; }
+.modal-media img { height: auto; object-fit: contain; max-height: calc(100svh - 235px); }
 .modal-media iframe { aspect-ratio: 16 / 9; }
 .video-fallback { margin: 0; padding: 56px 28px; color: var(--muted); font-size: 0.9rem; text-align: center; }
 .video-fallback a { border-bottom: 1px solid var(--accent); color: var(--paper); }
